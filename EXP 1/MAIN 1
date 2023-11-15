@@ -1,0 +1,12 @@
+EXPERIMENT 1
+AIM: Create a new process by invoking the appropriate system call. Get the process identifier of the currently running process and its respective parent using system calls and display the same using a C program.
+ALGORITHM:
+
+1.	Include necessary headers: Include the necessary header files like
+<stdio.h> and <unistd.h> for using system calls.
+2.	Declare variables: Declare variables to hold the process ID (pid_t pid) and the parent process ID (pid_t ppid).
+3.	Get the current process ID: Use the getpid() system call to retrieve the process ID of the current process.
+4.	Get the parent process ID: Use the getppid() system call to retrieve the parent process ID.
+5.	Display the process IDs: Print the process IDs to the console.
+6.	Create a new process: Use the fork() system call to create a new process. Check the return value of fork() to determine whether the code is running in the parent or child process.
+7.	Display process IDs in child and parent processes: Depending on whether the process is the parent or the child, display the respective process IDs.
