@@ -10,3 +10,6 @@ ALGORITHM:
 5.	Display the process IDs: Print the process IDs to the console.
 6.	Create a new process: Use the fork() system call to create a new process. Check the return value of fork() to determine whether the code is running in the parent or child process.
 7.	Display process IDs in child and parent processes: Depending on whether the process is the parent or the child, display the respective process IDs.
+OUTPUT: 
+Process ID: 6320
+Parent Process ID: 6320
